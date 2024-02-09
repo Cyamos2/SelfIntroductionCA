@@ -50,6 +50,7 @@
         
         main {
             padding: 20px;
+            text-align: center; /* Center content in main section */
         }
         
         footer {
@@ -86,11 +87,34 @@
         .button:hover {
             background-color: #ff6b00; /* Darker orange */
         }
+
+        /* Featured Projects styles */
+        #featured-content ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        #featured-content li {
+            margin: 10px;
+            text-align: left;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #featured-content h3 {
+            color: #007bff;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>My Biography</h1>
+        <h1>Welcome to My Biography</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -107,7 +131,23 @@
     </header>
 
     <main>
-        <!-- Main content goes here -->
+        <section id="introduction">
+            <h2>Hello, I'm [Your Name]</h2>
+            <p>I'm a Full Stack Web Developer and UI/UX Designer with a passion for creating innovative solutions.</p>
+            <a href="summary.html" class="button">Learn More</a>
+        </section>
+
+        <section id="featured-content">
+            <h2>Featured Projects</h2>
+            <ul>
+                <li>
+                    <h3>Guinea Pig Research Page</h3>
+                    <p>A research page on guinea pig behavior and habitat requirements.</p>
+                    <a href="https://github.com/Cyamos2/Guinea-Pig-Research" target="_blank" class="button">View Project</a>
+                </li>
+                <!-- Add more featured projects here -->
+            </ul>
+        </section>
     </main>
 
     <footer>
