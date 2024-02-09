@@ -10,11 +10,11 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
         
         header {
-            background-color: #333;
+            background-color: #007bff; /* Blue */
             color: #fff;
             padding: 1rem;
             text-align: center;
@@ -38,6 +38,14 @@
         nav ul li a {
             color: #fff;
             text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #fd7e14; /* Orange */
+            transition: background-color 0.3s ease;
+        }
+        
+        nav ul li a:hover {
+            background-color: #0056b3; /* Darker blue */
         }
         
         main {
@@ -45,7 +53,7 @@
         }
         
         footer {
-            background-color: #333;
+            background-color: #007bff; /* Blue */
             color: #fff;
             text-align: center;
             padding: 1rem;
@@ -56,9 +64,9 @@
 
         /* Button styles */
         .button {
-            background-color: orange;
+            background-color: #fd7e14; /* Orange */
             border: none;
-            color: white;
+            color: #fff;
             padding: 10px 20px;
             text-align: center;
             text-decoration: none;
@@ -67,11 +75,16 @@
             margin: 4px 2px;
             cursor: pointer;
             border-radius: 12px;
+            transition: background-color 0.3s ease;
         }
 
         .button a {
-            color: blue;
+            color: #007bff; /* Blue */
             text-decoration: none;
+        }
+
+        .button:hover {
+            background-color: #ff6b00; /* Darker orange */
         }
     </style>
 </head>
