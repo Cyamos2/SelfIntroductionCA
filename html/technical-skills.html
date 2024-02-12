@@ -1,12 +1,86 @@
-<!-- html/technical-skills.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Technical Skills</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Technical skills section styles */
+        #technical-skills {
+            background-color: #ffc107; /* Yellow */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill {
+            margin-bottom: 20px;
+        }
+
+        .skill h3 {
+            color: #212529; /* Dark */
+            margin-bottom: 5px;
+            font-size: 20px;
+        }
+
+        .skill p {
+            color: #212529; /* Dark */
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,42 +103,25 @@
     <main>
         <section id="technical-skills">
             <h2>Technical Skills</h2>
-            <div class="skill-category">
+            <div class="skill">
                 <h3>Frontend</h3>
-                <ul>
-                    <li>React.js</li>
-                    <li>Redux</li>
-                    <li>Hooks</li>
-                    <li>Jest</li>
-                    <li>Cypress</li>
-                    <li>JavaScript</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Linux</li>
-                </ul>
+                <p>React.js, Redux, Hooks, Jest, Cypress, JavaScript, HTML, CSS, Linux</p>
             </div>
-            <div class="skill-category">
+            <div class="skill">
                 <h3>Backend</h3>
-                <ul>
-                    <li>Node.js</li>
-                    <li>Express</li>
-                    <li>SQL</li>
-                </ul>
+                <p>Node.js, Express, SQL</p>
             </div>
-            <div class="skill-category">
+            <div class="skill">
                 <h3>Tools/Platforms</h3>
-                <ul>
-                    <li>Git</li>
-                    <li>Heroku</li>
-                    <li>Netlify</li>
-                    <li>GitHub</li>
-                </ul>
+                <p>Git, Heroku, Netlify, GitHub</p>
             </div>
-            <div class="skill-category">
+            <div class="skill">
                 <h3>AWS</h3>
-                <ul>
-                    <li>Basic knowledge</li>
-                </ul>
+                <p>Basic knowledge</p>
+            </div>
+            <div class="skill">
+                <h3>JCL</h3>
+                <p>Job Control Language</p>
             </div>
         </section>
     </main>
