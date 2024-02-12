@@ -1,12 +1,85 @@
-<!-- html/education.html -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Education</title>
-    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        header {
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #007bff; /* Blue */
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Education section styles */
+        #education {
+            background-color: #17a2b8; /* Light Blue */
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .education-info {
+            margin-bottom: 20px;
+        }
+
+        .education-info h3 {
+            color: #fff; /* White */
+            margin-bottom: 10px;
+        }
+
+        .education-info p {
+            color: #fff; /* White */
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,23 +102,18 @@
     <main>
         <section id="education">
             <h2>Education</h2>
-            <ul>
-                <li>
-                    <h3>Google Certification Program - Cybersecurity</h3>
-                    <p>Date: August 2023</p>
-                    <p>Description: Completed Google's Cybersecurity certification program, specializing in network security, encryption, and threat detection.</p>
-                </li>
-                <li>
-                    <h3>BloomTech (Lambda School) - Full Stack Web Development</h3>
-                    <p>Date: 2022</p>
-                    <p>Description: Graduated from BloomTech (Lambda School) with a focus on Full Stack Web Development. Developed expertise in modern web technologies including React.js, Node.js, and database management.</p>
-                </li>
-                <li>
-                    <h3>Boise State University - Bachelor of Science in Criminal Justice</h3>
-                    <p>Date: May 2018</p>
-                    <p>Description: Obtained a Bachelor of Science degree in Criminal Justice with a minor in Psychology. Completed coursework in criminology, law enforcement, and criminal procedure.</p>
-                </li>
-            </ul>
+            <div class="education-info">
+                <h3>Google Certification Program, Cybersecurity</h3>
+                <p>Completed: 8/2023</p>
+            </div>
+            <div class="education-info">
+                <h3>BloomTech (Lambda School), Full Stack Web Development</h3>
+                <p>Alumni, Graduated: 2022</p>
+            </div>
+            <div class="education-info">
+                <h3>Boise State University, Bachelor of Science in Criminal Justice</h3>
+                <p>Graduated: 2018</p>
+            </div>
         </section>
     </main>
 
